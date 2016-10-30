@@ -6,25 +6,22 @@
 /*   By: mgould <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/29 13:53:28 by mgould            #+#    #+#             */
-/*   Updated: 2016/10/29 21:26:42 by mgould           ###   ########.fr       */
+/*   Updated: 2016/10/29 21:42:20 by mgould           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_sqrt(int nb)
+int	ft_sqrt(int nb)
 {
 	int r;
 
 	r = 1;
-
-	while(r < 46340 )
+	while (r < 46340)
 	{
-		if ((r*r) == nb)
+		if ((r * r) == nb)
 		{
-			return r;
+			return (r);
 		}
-		r = r + 1;
+		r = (r + 1);
 	}
-	
 	return (0);
-
- }
+}
